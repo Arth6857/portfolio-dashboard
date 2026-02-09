@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const fetchPortfolio = async () => {
-  const res = await axios.get("http://localhost:5050/api/portfolio");
+  const res = await axios.get("https://portfolio-dashboard-17ln.onrender.com/api/portfolio")
   return res.data;
 };
 
